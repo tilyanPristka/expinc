@@ -1,0 +1,1 @@
+This folder will separate each folder base on clients name for reporting purposes.
