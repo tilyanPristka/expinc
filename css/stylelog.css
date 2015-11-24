@@ -1,0 +1,1026 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+}
+
+
+body {
+	behavior: url("csshover3.htc");
+	margin-top: 0px;
+	background: #FFF;
+	text-align: justify;
+	font-family: verdana;
+	font-size: 11px;
+	color: #333333;
+	padding-left: 10px;
+}
+
+#banner {
+	background:url(../images/tP_banner.gif);
+	background-color:#000;
+	background-repeat:no-repeat;
+	width: 948px;
+	height: 270px;
+	float: left;
+	margin: 0 0 12px 0;
+}
+
+#main {
+	background: #FFF;
+	/*border: 2px solid #FFCC00; /*MAIN CONTENT 1 PX BORDER AND BORDER COLOR
+	border-right:2px solid #1e2329;
+	border-left:2px solid #1e2329;*/
+	width: 970px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	color: #fff;
+}
+
+h1 {
+	font-size:11px;
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+}
+
+h2 {
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center
+}
+.smallcaps{
+	font-variant:small-caps;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 5px;
+	line-height: 13pt;
+	padding-top: 10px;
+	text-align: left;
+}
+
+p {
+}
+
+blockquote {
+}
+
+/* Wrapper */
+#wrapper {
+}
+
+
+/* Header */
+
+#header {
+	width: 948px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* Bahasa */
+
+#bahasa {
+	background:url(../images/bahasa_bg.gif) repeat-x;
+	width: 955px;
+	height: 15px;
+	float:right;
+	padding:5px 15px 5px 0;
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	text-align: right;
+}
+
+#tuv {
+	width:62px;
+	height:65px;
+	background-image:url(../images/tp_symbol.png);
+	background-repeat:no-repeat;
+	float: right;
+	margin-top:5px;
+}
+
+#geo {
+	width:100px;
+	height:100px;
+	float: right;
+        margin-right:200px;
+	margin-top:80px;
+}
+
+/* Logo */
+
+#logo {
+	background:url(../images/tp_logo.png) no-repeat;
+	float: left;
+	width: 281px;
+	height: 63px;
+	margin: 6px 0 0 0;
+}
+
+#splash {
+	width: 948px;
+	height: 200px;
+	margin:0 auto;
+	padding-bottom:10px;
+}
+
+/*input{
+width: 171px;
+height: 17px;
+float: left;
+padding: 5px 10px;
+margin:25px 0 0 0;
+color: #a0a4a8;
+border: none;
+}
+
+input#submit{
+display: inline;
+width: 66px;
+height: 27px;
+float: left;
+margin:25px 0 0 10px;
+background: url(../images/search_button.gif) no-repeat;
+}
+
+/* Page */
+
+#page {
+	width: 948px;
+	margin: 0 auto;
+}
+
+#page-bgtop {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 720px;
+	height:387px;
+	-moz-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 10px 10px 0px 0px;
+}
+
+*html #content {
+	float: right;
+	width: 720px;
+	height:413px;
+	-moz-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 10px 10px 0px 0px;
+}
+
+#content_index {
+	float: left;
+	width: 513px;
+	height:447px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #cccccc; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 0px 10px 0px 0px;
+	margin-left:10px;
+}
+
+*html #content_index {
+	float: left;
+	width: 510px;
+	height:440px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 10px 10px 0px 0px;
+	margin-left:10px;
+}
+
+#content-auto {
+	float: right;
+	width: 737px;
+	height:auto;
+	/*-moz-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+*html #content-auto {
+	float: right;
+    	width: 600px;
+	height:auto;
+	/*-moz-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 5px 5px 0px 0px;
+}
+
+#content-gallery{
+	float: left;
+	width: 930px;
+	height:auto;
+	/*-moz-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*RIGHT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; RIGHT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 10px 10px 0px 0px;
+}
+.post {
+	margin: 0px;
+
+}
+
+.rightcontent_bar {
+	display: block;
+	width: 716px;
+	height: 25px;
+	/*-moz-border-radius: 10px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	margin: 0px;
+	padding: 10px 10px 0px 10px;
+	background: #92013a;
+	text-decoration:none;
+	/* text-transform:uppercase; */
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.rightcontent_index {
+	display: block;
+	width: 503px;
+	height: 25px;
+	/*-moz-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 0px 10px;
+	background: #333333;
+	text-decoration:none;
+	/*text-transform:uppercase;*/
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.post .title {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	color: #232F01;
+}
+
+.post .title a {
+	padding: 4px 35px 4px 15px;
+	background: #07B6FE;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.post .entry {
+	padding: 10px 10px 5px 10px;
+	text-align: justify;
+}
+
+.post .entry1 {
+	padding: 20px 20px;
+}
+
+.post img {
+	float: left;
+	padding: 10px 0px;
+}
+
+.post .meta {
+	text-align: right;
+	padding: 0px 0 20px 0;
+	font-weight: bold;
+	color: #202020;
+}
+
+.post .byline {
+	float: right;
+	margin-top: -30px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5E5E5E;
+}
+
+/* Sidebar */
+
+.left-content {
+	float: left; /*FLOATS LEFT CONTENT BOX LEFT*/
+	width: 172px; /*ADDS A FIXED WIDTH*/
+    _width: 142px; /*ADDS A FIXED WIDTH*/
+	/*-moz-border-radius: 15px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 15px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #181818; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 20px; /*ADDS PADDING ALL THE WAY AROUND*/
+        _padding: 0; /*ADDS PADDING ALL THE WAY AROUND*/
+}
+
+html>body .left-content {
+	float: left; /*FLOATS LEFT CONTENT BOX LEFT*/
+	width: 172px; /*ADDS A FIXED WIDTH*/
+    _width: 142px; /*ADDS A FIXED WIDTH*/
+	/*-moz-border-radius: 15px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 15px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #181818; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	padding: 20px; /*ADDS PADDING ALL THE WAY AROUND*/
+    _padding: 0; /*ADDS PADDING ALL THE WAY AROUND*/
+}
+
+
+#sidebar {
+	float: left;
+	width: 190px;
+    _width: 142px;
+	height:418px;
+    /*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	margin: 0px;
+	padding:0px 10px 30px 0px;
+}
+
+*html #sidebar {
+	float: left;
+	width: 180px;
+	height:390px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	margin: 0px;
+	padding:0px 10px 30px 0px;
+}
+
+.top_sidebar {
+	display: block;
+	width: 190px;
+    _width: 170px;
+	height: 25px;
+	/*-moz-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	margin: 0px 0px 10px 0px;
+    _margin: 0px 5px 10px 5px;
+	padding: 0px 10px 0px 10px;
+	background: #333333;
+	text-decoration:none;
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase; /*TRANSFORMS NAVIGATION LINKS TO ALL CAPITAL LETTERS*/
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+html>body .top_sidebar {
+	display: block;
+	width: 180px;
+	height: 25px;
+	/*-moz-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	margin: 0px 5px 10px 0px;
+	padding: 10px 10px 0px 10px;
+	background: #333333;
+	text-decoration:none;
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase; /*TRANSFORMS NAVIGATION LINKS TO ALL CAPITAL LETTERS*/
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+*html #sidebar {
+	float: left;
+	width: 200px;
+        _width: 142px;
+	height:381px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; /*ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	margin: 0px;
+	padding:0px 10px 30px 0px;
+}
+
+
+#sidebar ul {
+	font:verdana;
+	font-size:11px;
+	margin: 0;
+	padding: 0px 0px 0px 7px;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 1px;
+}
+
+#sidebar li ul {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 5px 0px;
+	border: none;
+	border-bottom: 1px solid #252726;
+	border-bottom-style:dotted;
+}
+#sidebar a, a:link, a:visited {
+	border: none;
+	color: #333;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#sidebar a:hover {
+	border: none;
+	color:#92013a;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#sidebar h2 {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	font-size: 160%;
+	font-weight: normal;
+	color: #07B6FE;
+}
+
+#sidebar h3 {
+	font-size: 77%;
+	color: #110404;
+}
+
+#sidebar p {
+	margin: 0;
+	line-height: normal;
+	color: #D4C792;
+}
+	
+
+#news {
+	float: right;
+	width: 200px;
+     _width: 190px;
+	height:437px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #cccccc; /*LEFT CONTENT BACKGROUND COLOR*/
+	 /*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	margin: 0px;
+	padding: 0px 5px 10px 0px;
+     _padding:0px 5px 10px 0px;
+}
+*html #news {
+	float: right;
+	width: 190px;
+	height:437px;
+	/*-moz-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 5px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF; /*LEFT CONTENT BACKGROUND COLOR*/
+	/*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	margin: 0px;
+	padding:0px 0px 10px 0px;
+}
+
+
+
+.news_content {
+	float: right;
+	width: 180px;
+        _width: 175px;
+	height: 150px;
+	margin: 0px;
+	padding:0px 7px 10px 5px;
+	text-align:left;
+}
+
+.twitter_content {
+	float: left;
+	width: 200px;
+        _width: 175px;
+	height: 180px;
+	margin-top: 17px;
+	padding:0px 0px 0px 0px;
+}
+
+
+html>body .news_content {
+	float: right;
+	width: 180px;
+	margin: 0px;
+	padding:0px 7px 10px 5px;
+	text-align:left;
+}
+
+.date {
+	font-size: 10px;
+	line-height: 135%;
+	font-style:italic;
+	color:#92013a;
+}
+
+#news_bar {
+	display: block;
+	width: 205px;
+	_width: 190px;
+	height: 25px;
+	/*-moz-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #fff; /*LEFT CONTENT BACKGROUND COLOR*/
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
+	background: #333333;
+	text-decoration:none;
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase; /*TRANSFORMS NAVIGATION LINKS TO ALL CAPITAL LETTERS*/
+	font-weight: bold;
+	color:#FF0;
+	text-align: center;
+}
+
+/* Footer */
+
+#footer1 {
+	width: 948px;
+	height: 20px;
+	margin:10px;
+	text-align: center;
+	/*background-image:url(images/footer_bg.png);*/
+ 	/*background-repeat: repeat-x; /*REPEATS BACKGROUND HORIZONTALLY*/ 
+  	/*background-position: bottom; /*PLACES BACKGROUND AT THE BOTTOM OF THE DIV*/
+	/*-moz-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	/*-webkit-border-radius: 10px; ADDS A BORDER RADIUS (applys to Mozilla/Firefox and Safari 3 users ONLY)*/
+	background-color: #FFF;
+	/*border: 1px solid #141414; LEFT CONTENT 1 PX BORDER AND BORDER COLOR*/
+	color:#999;
+}
+#footer1 a:link, a:visited {
+	color:#333;
+	font-size:9px;
+	/*font-weight:bold;*/
+	text-decoration:none;
+}
+#footer1 a:hover {
+	color:#666;
+	font-size:9px;
+	font-weight:bold;	
+}
+
+.scroll {
+	height: 312px;
+	width: 650px;
+	overflow: auto;
+	border: 0px;
+	background:url(images/Layer-1.png);
+	padding: 20px;
+	}
+
+#footer1 p {
+	margin: 0;
+	padding:0px;
+	height:50px;
+	text-align:center;
+	font-size: 9px;
+}
+
+#footer1 a {
+	text-decoration:none;
+}
+
+#footer1 a:hover {
+	text-decoration: none;
+}
+
+#leadpic {
+	float:left;
+	margin: 2px 15px 5px 0;
+	padding:1px;
+	border:1px solid #999;
+}
+#leadpic1 {float:left;margin: 10px 20px 10px 10px;padding:1px;border:1px solid #999;}
+
+/* image bannger */
+div.wrap {
+width : 948px;
+margin : 7px 0 0 0;
+padding-top: 35px;
+text-align : left;
+}
+
+div#header_gallery {
+margin : -1px 0 0;
+}
+
+
+
+/* login.css*/
+
+fieldset { padding: 8px; }
+legend { font-weight: bold; }
+
+pre { margin-bottom: 1em; }
+    
+.jscom, .mix htcom   { color: #4040c2; }
+.com      { color: green; }
+.regexp   { color: maroon; }
+.string   { color: teal; }
+.keywords { color: blue; }
+.global   { color: #008; }
+.numbers  { color: #880; }
+.comm     { color: green; }
+.tag      { color: blue; }
+.entity   { color: blue; }
+.string   { color: teal; }
+.aname    { color: maroon; }
+.avalue   { color: maroon; }
+.jquery   { color: #00a; }
+.plugin   { color: red; }
+
+/*li { list-style-type: none; }*/
+.basic { width:20em; }
+
+#log { position:fixed; bottom: 0; right:1em; text-align:right; }
+#switch { position: fixed; bottom: 0; right: 15em; }
+
+.bottom  {
+	width: 1px;
+	height: 13px;
+	background-image:url(../images/blank.png);
+}
+
+.admin_top  {
+	width: 250px;
+	font-family: verdana;
+	height: 75px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.main_top  {
+	width: 650px;
+	font-family: verdana;
+	height: 75px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.main_logo  {
+	width: 192px;
+	font-family: verdana;
+	height: 75px;
+	background-image:url(../images/main_logo_small.png);
+}
+
+.account_left  {
+	width: 50%;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.account_left h3 {
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	background-color: #CCC;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+}
+.account_left a.normallink {
+	cursor:pointer;
+	text-decoration: none;
+	color: #990000;
+	background-image: none;
+	background-color: #FFF;
+	font-weight: bold;
+	font-size:10px;
+	border: none;
+	padding: 0;
+	display: inline;
+}
+.account_left a.normallink:hover {
+	background-color: #FFF;
+	color: #000000;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.account_right  {
+	width: 50%;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.account_right h3 {
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	background-color: #CCC;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+}
+
+.files  {
+	width: 45%;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #999;
+	margin-bottom:6px;
+}
+
+.other  {
+	width: 100%;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.other h3 {
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	background-color: #CCC;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+}
+.other h3 a.normaltitlelink{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #CCC;
+}
+.other h3 a.normaltitlelink:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 12px;
+	color: #990000;
+	background-color: #CCC;
+}
+.other a.normallink {
+	cursor:pointer;
+	text-decoration: none;
+	color: #990000;
+	background-image: none;
+	background-color: #FFF;
+	font-weight: bold;
+	font-size:10px;
+	border: none;
+	padding: 0;
+	display: inline;
+}
+.other a.normallink:hover {
+	background-color: #FFF;
+	color: #000000;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.basic  {
+	width: 95%;
+	font-family: verdana;
+	border:no;
+}
+.basic div {
+	background-color: #ccc;
+}
+
+.basic p {
+	margin-bottom : 10px;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+/*.basic a {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	background-color: #00a0c6;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+	
+	background-image: url("../images/AccordionTab0.gif");
+}
+.basic a:hover {
+	background-color: white;
+	background-image: url("../images/AccordionTab2.gif");
+}
+.basic a.selected {
+	color: black;
+	background-color: #80cfe2;
+	background-image: url("../images/AccordionTab2.gif");
+}
+*/
+.basic a.normallink {
+	cursor:pointer;
+	text-decoration: none;
+	color: #990000;
+	background-image: none;
+	background-color: #cccccc;
+	font-weight: bold;
+	font-size:10px;
+	border: none;
+	padding: 0;
+	display: inline;
+}
+.basic a.normallink:hover {
+	background-color: #cccccc;
+	color: #000000;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.basic a.normalbiglink {
+	cursor:pointer;
+	text-decoration: none;
+	color: #990000;
+	background-image: none;
+	background-color: #cccccc;
+	font-weight: bold;
+	font-size:12px;
+	border: none;
+	padding: 0;
+	display: inline;
+}
+.basic a.normalbiglink:hover {
+	background-color: #cccccc;
+	color: #000000;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#list2 {
+	height: 178px;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+#list2 .red {
+	color: red;
+	background-color: red;
+}
+#list2 .green {
+	color: green;
+	background-color: green;
+}
+#list2 .blue {
+	color: blue;
+	background-color: blue;
+}
+#list2 dd { height: 130px; overflow: hidden; }
+
+#list3 { border: 1px solid #111; }
+#list3 div.selected .title { font-weight: bold; }
+#list3 div div {
+	border-left:8px solid #6699CC;
+	padding: 5px;
+}
+#list3 div.title {
+	border: 1px solid #3366AA;
+	background-color: #6699CC;
+	padding: 10px;
+	cursor: pointer;
+}
+#list3 div.selected {
+	border-bottom: none;
+}
+
+#navigation {
+	border:1px solid #5263AB;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	background-color:#E2E2E2;
+	width:200px;
+}
+#navigation a.head {
+	cursor:pointer;
+	border:1px solid #CCCCCC;
+	background:#5263AB url(collapsed.gif) no-repeat scroll 3px 4px;
+	color:#FFFFFF;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	text-indent:14px;
+	text-decoration: none;
+}
+#navigation a.head:hover {
+	color:#FFFF99;
+}
+#navigation a.selected {
+	background-image: url(expanded.gif);
+}
+#navigation a.current {
+	background-color:#FFFF99;
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation li {
+	list-style:none outside none; display:inline;
+}
+#navigation li li a {
+	color:#000000;
+	display:block;
+	text-indent:10px;
+	text-decoration: none;
+}
+#navigation li li a:hover {
+	background-color:#FFFF99;
+	color:#FF0000;
+}
+*/
+#wizard {
+	width: 200px;
+	border: 1px solid black;
+}
+#wizard .title {
+	background-color:#DDDDDD;
+}
+
+@media print {
+	.basic div, #navigation ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}
+
+.tTip {width: 200px; cursor: pointer; color: #990000; font-weight: bold; text-decoration: none;}
+
+.tip {
+	width: 412px;
+	padding-top: 37px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(../images/__tipTop.png) no-repeat top;}
+	
+.tipMid {background: transparent url(../images/__tipMid.png) repeat-y; padding: 0 25px 20px 25px;}
+.tipBtm {background: transparent url(../images/__tipBtm.png) no-repeat bottom; height: 32px;}
+
+.tPtext {color:#900;
+		 font-weight: bold;
+		 font-size:13px;}

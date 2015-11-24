@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2010/11/12" version="4.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="backtologin" value="Back to Login Page"/>
+		<phrase id="booleanno" value="No"/>
+		<phrase id="booleanyes" value="Yes"/>
+		<phrase id="cancelbtn" value="Cancel" client="1"/>
+		<phrase id="currentfilters" value="CURRENT FILTERS:"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="emptylabel" value="(Empty)"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later."/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="filters" value="Filters"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number" client="1"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect Social Security Number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="monthjan" value="Jan"/>
+		<phrase id="monthfeb" value="Feb"/>
+		<phrase id="monthmar" value="Mar"/>
+		<phrase id="monthapr" value="Apr"/>
+		<phrase id="monthmay" value="May"/>
+		<phrase id="monthjun" value="Jun"/>
+		<phrase id="monthjul" value="Jul"/>
+		<phrase id="monthaug" value="Aug"/>
+		<phrase id="monthsep" value="Sep"/>
+		<phrase id="monthoct" value="Oct"/>
+		<phrase id="monthnov" value="Nov"/>
+		<phrase id="monthdec" value="Dec"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="nopermission" value="You do not have the right permission to view the page"/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="noreportorcharts" value="No report or charts is selected for generation. Please check your report/charts settings."/>
+		<phrase id="nodistinctcolvals" value="No distinct column values for sql: "/>
+		<phrase id="nulllabel" value="(Null)"/>
+		<phrase id="of" value="of"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="pleaseselect" value=""/>
+		<phrase id="popupall" value="(All)" client="1"/>
+		<phrase id="popupcancel" value="Cancel" client="1"/>
+		<phrase id="popupfrom" value="From" client="1"/>
+		<phrase id="popupnovalue" value="No value selected!" client="1"/>
+		<phrase id="popupok" value="  OK  " client="1"/>
+		<phrase id="popupselect" value="Please Select" client="1"/>
+		<phrase id="popupto" value="To" client="1"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="group" value="Groups"/>
+		<phrase id="groupsperpage" value="Groups Per Page"/>
+		<phrase id="qtr1" value="1st Quarter"/>
+		<phrase id="qtr2" value="2nd Quarter"/>
+		<phrase id="qtr3" value="3rd Quarter"/>
+		<phrase id="qtr4" value="4th Quarter"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordsperpage" value="Records Per Page"/>
+		<phrase id="report" value="Reports"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetallfilter" value="Reset All Filters"/>
+		<phrase id="resetsearch" value="Reset Search Criteria"/>
+		<phrase id="rptavg" value="AVERAGE"/>
+		<phrase id="rptcnt" value="COUNT"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandsummary" value="Grand Summary"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="MAXIMUM"/>
+		<phrase id="rptmin" value="MINIMUM"/>
+		<phrase id="rptpagesummary" value="Page Summary"/>
+		<phrase id="rptpagetotal" value="Page Total"/>
+		<phrase id="rptsum" value="SUM"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="selectall" value="(All)"/>
+		<phrase id="sendemailbtn" value="Send" client="1"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="summary" value="Summary"/>
+		<phrase id="tasks" value="Tasks"/>
+		<phrase id="to" value="to"/>
+		<phrase id="top" value="Top"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="week" value="Week"/>
+		<phrase id="year" value="Year"/>
+		<!-- Search Operators -->
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+		<!-- Menu Prefix/Suffix -->
+		<phrase id="simplereportmenuitemprefix" value=""/>
+		<phrase id="simplereportmenuitemsuffix" value=""/>
+		<phrase id="detailsummaryreportmenuitemprefix" value=""/>
+		<phrase id="detailsummaryreportmenuitemsuffix" value=""/>
+		<phrase id="crosstabreportmenuitemprefix" value=""/>
+		<phrase id="crosstabreportmenuitemsuffix" value=""/>
+		<phrase id="chartreportmenuitemprefix" value=""/>
+		<phrase id="chartreportmenuitemsuffix" value=""/>
+		<!-- Advanced Filter -->
+		<phrase id="future" value="Future"/>
+		<phrase id="past" value="Past"/>
+		<phrase id="last14days" value="Last 14 days"/>
+		<phrase id="last30days" value="Last 30 days"/>
+		<phrase id="last7days" value="Last 7 days"/>
+		<phrase id="next14days" value="Next 14 days"/>
+		<phrase id="next30days" value="Next 30 days"/>
+		<phrase id="next7days" value="Next 7 days"/>
+		<phrase id="today" value="Today"/>
+		<phrase id="tomorrow" value="Tomorrow"/>
+		<phrase id="yesterday" value="Yesterday"/>
+		<phrase id="lastmonth" value="Last month"/>
+		<phrase id="nextmonth" value="Next month"/>
+		<phrase id="thismonth" value="This month"/>
+		<phrase id="lasttwoweeks" value="Last two weeks"/>
+		<phrase id="lastweek" value="Last week"/>
+		<phrase id="nexttwoweeks" value="Next two weeks"/>
+		<phrase id="nextweek" value="Next week"/>
+		<phrase id="thisweek" value="This week"/>
+		<phrase id="lastyear" value="Last year"/>
+		<phrase id="nextyear" value="Next year"/>
+		<phrase id="thisyear" value="This year"/>
+	</global>
+	<project><phrase id="bodytitle" value="tilyanPristka - Activity Reporting Support For Accounting Environment"/>
+<phrase id="footertext" value="&amp;copy;2010 tilyanPristka - Business Process Outsourcing Company"/>
+<menu id="20"><phrase id="menutext" value="tilyan members"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="tilyan membersperson"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="tilyan activities"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="tilyan administrator"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="tilyan adminlog"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="tilyan adminpermission"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="tilyan bjk account"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="tilyan bjk document"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="tilyan bjk lookup account"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="tilyan bjk lookup code 1"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="tilyan bjk lookup code 2"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="tilyan wgs lookup account"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="Parameters"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="Dimension 1"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="Chart of Account"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="Transaction"/>
+</menu>
+<table id="tilyan_activities"><phrase id="tblcaption" value="tilyan activities"/>
+<field id="accid"><phrase id="fldcaption" value="Acc ID"/>
+</field>
+<field id="logid"><phrase id="fldcaption" value="Log ID"/>
+</field>
+<field id="coid"><phrase id="fldcaption" value="Co ID"/>
+</field>
+<field id="activities"><phrase id="fldcaption" value="Activities"/>
+</field>
+</table>
+<table id="tilyan_administrator"><phrase id="tblcaption" value="tilyan administrator"/>
+<field id="adminid"><phrase id="fldcaption" value="Admin ID"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="lastlogin"><phrase id="fldcaption" value="Last Login"/>
+</field>
+<field id="nip"><phrase id="fldcaption" value="NIP"/>
+</field>
+<field id="subdit"><phrase id="fldcaption" value="Subdit"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="Username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="zemail"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="active"><phrase id="fldcaption" value="Active"/>
+</field>
+<field id="operatorid"><phrase id="fldcaption" value="Operator ID"/>
+</field>
+</table>
+<table id="tilyan_adminlog"><phrase id="tblcaption" value="tilyan adminlog"/>
+<field id="logid"><phrase id="fldcaption" value="Log ID"/>
+</field>
+<field id="datemodified"><phrase id="fldcaption" value="Date Modified"/>
+</field>
+<field id="logdescription"><phrase id="fldcaption" value="Log Description"/>
+</field>
+<field id="logstatus"><phrase id="fldcaption" value="Log Status"/>
+</field>
+<field id="ipaddress"><phrase id="fldcaption" value="IPAddress"/>
+</field>
+</table>
+<table id="tilyan_adminpermission"><phrase id="tblcaption" value="tilyan adminpermission"/>
+<field id="adminpermissionid"><phrase id="fldcaption" value="Admin Permission ID"/>
+</field>
+<field id="datemodified"><phrase id="fldcaption" value="Date Modified"/>
+</field>
+<field id="adminid"><phrase id="fldcaption" value="Admin ID"/>
+</field>
+<field id="permissionid"><phrase id="fldcaption" value="Permission ID"/>
+</field>
+<field id="operatorid"><phrase id="fldcaption" value="Operator ID"/>
+</field>
+</table>
+<table id="tilyan_bjk_account"><phrase id="tblcaption" value="tilyan bjk account"/>
+<field id="transid"><phrase id="fldcaption" value="Trans ID"/>
+</field>
+<field id="docid"><phrase id="fldcaption" value="Doc ID"/>
+</field>
+<field id="accno"><phrase id="fldcaption" value="Acc No"/>
+</field>
+<field id="accname"><phrase id="fldcaption" value="Acc Name"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="Amount"/>
+</field>
+</table>
+<table id="tilyan_bjk_document"><phrase id="tblcaption" value="tilyan bjk document"/>
+<field id="docid"><phrase id="fldcaption" value="Doc ID"/>
+</field>
+<field id="refdocid"><phrase id="fldcaption" value="Ref Doc ID"/>
+</field>
+<field id="docdate"><phrase id="fldcaption" value="Doc Date"/>
+</field>
+<field id="docfullno"><phrase id="fldcaption" value="Doc Full No"/>
+</field>
+<field id="docfolder"><phrase id="fldcaption" value="Doc Folder"/>
+</field>
+<field id="docadj"><phrase id="fldcaption" value="Doc ADJ"/>
+</field>
+<field id="doctype"><phrase id="fldcaption" value="Doc Type"/>
+</field>
+<field id="docinout"><phrase id="fldcaption" value="Doc In Out"/>
+</field>
+<field id="docnickname"><phrase id="fldcaption" value="Doc Nick Name"/>
+</field>
+<field id="doccode"><phrase id="fldcaption" value="Doc Code"/>
+</field>
+<field id="doccode2"><phrase id="fldcaption" value="Doc Code 2"/>
+</field>
+<field id="docyear"><phrase id="fldcaption" value="Doc Year"/>
+</field>
+<field id="docmonth"><phrase id="fldcaption" value="Doc Month"/>
+</field>
+<field id="doctime"><phrase id="fldcaption" value="Doc Time"/>
+</field>
+<field id="docno"><phrase id="fldcaption" value="Doc No"/>
+</field>
+<field id="docnotes"><phrase id="fldcaption" value="Doc Notes"/>
+</field>
+<field id="docclear"><phrase id="fldcaption" value="Doc Clear"/>
+</field>
+<field id="docadjusted"><phrase id="fldcaption" value="Doc Adjusted"/>
+</field>
+<field id="docprinted"><phrase id="fldcaption" value="Doc Printed"/>
+</field>
+</table>
+<table id="tilyan_bjk_lookup_account"><phrase id="tblcaption" value="tilyan bjk lookup account"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="accno"><phrase id="fldcaption" value="Acc No"/>
+</field>
+<field id="accname"><phrase id="fldcaption" value="Acc Name"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="Type"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="tilyan_bjk_lookup_code1"><phrase id="tblcaption" value="tilyan bjk lookup code 1"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="codename"><phrase id="fldcaption" value="Code Name"/>
+</field>
+<field id="codedesc"><phrase id="fldcaption" value="Code Desc"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="tilyan_bjk_lookup_code2"><phrase id="tblcaption" value="tilyan bjk lookup code 2"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="codename"><phrase id="fldcaption" value="Code Name"/>
+</field>
+<field id="codedesc"><phrase id="fldcaption" value="Code Desc"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id="tilyan_members"><phrase id="tblcaption" value="tilyan members"/>
+<field id="coid"><phrase id="fldcaption" value="Co ID"/>
+</field>
+<field id="coname"><phrase id="fldcaption" value="Co Name"/>
+</field>
+<field id="cologo"><phrase id="fldcaption" value="Co Logo"/>
+</field>
+<field id="coaddress"><phrase id="fldcaption" value="Co Address"/>
+</field>
+<field id="couser"><phrase id="fldcaption" value="Co User"/>
+</field>
+<field id="copass"><phrase id="fldcaption" value="Co Pass"/>
+</field>
+<field id="cofolder"><phrase id="fldcaption" value="Co Folder"/>
+</field>
+<field id="coemail"><phrase id="fldcaption" value="Co Email"/>
+</field>
+<field id="coenabled"><phrase id="fldcaption" value="Co Enabled"/>
+</field>
+<field id="conotes"><phrase id="fldcaption" value="Co Notes"/>
+</field>
+<field id="lastlogin"><phrase id="fldcaption" value="Last Login"/>
+</field>
+</table>
+<table id="tilyan_membersperson"><phrase id="tblcaption" value="tilyan membersperson"/>
+<field id="cp_id"><phrase id="fldcaption" value="CP ID"/>
+</field>
+<field id="coid"><phrase id="fldcaption" value="Co ID"/>
+</field>
+<field id="cp_datecreated"><phrase id="fldcaption" value="CP Date Created"/>
+</field>
+<field id="cp_lastlogin"><phrase id="fldcaption" value="CP Last Login"/>
+</field>
+<field id="cp_user"><phrase id="fldcaption" value="CP User"/>
+</field>
+<field id="cp_pass"><phrase id="fldcaption" value="CP Pass"/>
+</field>
+<field id="cp_fullname"><phrase id="fldcaption" value="CP Fullname"/>
+</field>
+<field id="cp_email"><phrase id="fldcaption" value="CP Email"/>
+</field>
+<field id="cp_nickname"><phrase id="fldcaption" value="CP Nick Name"/>
+</field>
+<field id="cp_enabled"><phrase id="fldcaption" value="CP Enabled"/>
+</field>
+<field id="cp_permission"><phrase id="fldcaption" value="CP Permission"/>
+</field>
+</table>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id=""/>
+<table id="tilyan_wgs_lookup_account"><phrase id="tblcaption" value="tilyan wgs lookup account"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="accno"><phrase id="fldcaption" value="Acc No"/>
+</field>
+<field id="accname"><phrase id="fldcaption" value="Acc Name"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="Type"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="chart_of_account"><phrase id="tblcaption" value="Chart of Account"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="accno"><phrase id="fldcaption" value="Account #"/>
+</field>
+<field id="accname"><phrase id="fldcaption" value="Account Name"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="Account Type"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="dimension_1"><phrase id="tblcaption" value="List Project"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="codename"><phrase id="fldcaption" value="Code Name"/>
+</field>
+<field id="codedesc"><phrase id="fldcaption" value="Code Desc"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="transaction"><phrase id="tblcaption" value="Transaction"/>
+<field id="docid"><phrase id="fldcaption" value="Doc ID"/>
+</field>
+<field id="accno"><phrase id="fldcaption" value="Account #."/>
+</field>
+<field id="accname"><phrase id="fldcaption" value="Account Name"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="Amount"/>
+</field>
+<field id="refdocid"><phrase id="fldcaption" value="Ref Doc ID"/>
+</field>
+<field id="docdate"><phrase id="fldcaption" value="Doc. Date"/>
+</field>
+<field id="docfullno"><phrase id="fldcaption" value="Voucher #."/>
+</field>
+<field id="doctype"><phrase id="fldcaption" value="Form Type"/>
+</field>
+<field id="docinout"><phrase id="fldcaption" value="Transaction"/>
+</field>
+<field id="doccode"><phrase id="fldcaption" value="Project"/>
+</field>
+<field id="docnotes"><phrase id="fldcaption" value="Doc Notes"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="Account Type"/>
+</field>
+</table>
+</project>
+</ew-language>
